@@ -1,0 +1,15 @@
+# Secrets
+.env
+*.env
+.env*
+
+# Generated files
+status.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# System
+.DS_Store

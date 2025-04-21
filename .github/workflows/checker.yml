@@ -1,0 +1,59 @@
+name: Website Health Monitor
+on:
+  schedule:
+    - cron: '0 * * * *'  # Hourly checks
+  workflow_dispatch:      # Manual trigger option
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      # ===== SAFETY CHECKS =====
+      - name: Validate Secrets Exist
+        run: |
+          if [ -z "${{ secrets.TELEGRAM_TOKEN }}" ]; then
+            echo "::error::Missing TELEGRAM_TOKEN secret"
+            exit 1
+          fi
+          if [ -z "${{ secrets.CHAT_ID }}" ]; then
+            echo "::error::Missing CHAT_ID secret"
+            exit 1
+          fi
+          if ! echo '${{ secrets.WEBSITES }}' | jq empty; then
+            echo "::error::Invalid WEBSITES JSON"
+            exit 1
+          fi
+        env:
+          WEBSITES: ${{ secrets.WEBSITES }}
+
+      # ===== MAIN SETUP =====
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get install jq  # JSON validator
+
+      # ===== EXECUTION =====
+      - name: Run checks
+        run: python checker.py
+        env:
+          WEBSITES: ${{ secrets.WEBSITES }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+
+      # ===== SAFE COMMIT =====
+      - name: Commit status updates
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update status data [skip ci]"
+            git push
+          else
+            echo "No status changes to commit"
+          fi

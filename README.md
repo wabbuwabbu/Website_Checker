@@ -34,8 +34,8 @@ Configure the `WEBSITES` secret in the following JSON format:
   {
     "name": "Example",
     "url": "https://example.com",
-    "validation_text": "Welcome",  // Optional content check
-    "ssl_warning_days": 30         // Days before SSL expiry to warn
+    "validation_text": "Welcome",  # Optional content check
+    "ssl_warning_days": 30         # Days before SSL expiry to warn
   }
 ]
 ```
@@ -114,4 +114,4 @@ This project is released under the [Unlicense](LICENSE).
 Contributions are welcome! Please submit a pull request or open an issue for suggestions.
 
 ## Contact
-For support, reach out via [GitHub Issues](https://github.com/your-username/your-repo/issues).
+For support, reach out via [GitHub Issues](https://github.com/wabbuwabbu/Website_Checker/issues).

@@ -4,7 +4,7 @@
 .env*
 
 # Generated files
-status.json
+
 
 # Python
 __pycache__/

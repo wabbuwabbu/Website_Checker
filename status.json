@@ -2,13 +2,13 @@
   "Influencers": {
     "online": true,
     "error": null,
-    "latency": 115,
+    "latency": 122,
     "status_code": 200,
-    "ssl_days_remaining": 88,
+    "ssl_days_remaining": 87,
     "content_valid": true,
-    "last_check": "2025-04-30 21:22:29",
-    "total_checks": 200,
-    "successful_checks": 200,
+    "last_check": "2025-04-30 22:22:30",
+    "total_checks": 201,
+    "successful_checks": 201,
     "uptime": 100.0,
     "alert_sent": false
   },
@@ -19,9 +19,9 @@
     "status_code": 200,
     "ssl_days_remaining": 68,
     "content_valid": true,
-    "last_check": "2025-04-30 21:22:31",
-    "total_checks": 200,
-    "successful_checks": 200,
+    "last_check": "2025-04-30 22:22:33",
+    "total_checks": 201,
+    "successful_checks": 201,
     "uptime": 100.0,
     "alert_sent": false
   }

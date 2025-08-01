@@ -2,27 +2,27 @@
   "Influencers": {
     "online": true,
     "error": null,
-    "latency": 102,
+    "latency": 82,
     "status_code": 200,
     "ssl_days_remaining": 57,
     "content_valid": true,
-    "last_check": "2025-08-01 16:34:20",
-    "total_checks": 2222,
-    "successful_checks": 2222,
+    "last_check": "2025-08-01 17:25:57",
+    "total_checks": 2223,
+    "successful_checks": 2223,
     "uptime": 100.0,
     "alert_sent": false
   },
   "Tesser": {
     "online": true,
     "error": null,
-    "latency": 2579,
+    "latency": 2539,
     "status_code": 200,
     "ssl_days_remaining": 35,
     "content_valid": true,
-    "last_check": "2025-08-01 16:34:23",
-    "total_checks": 2222,
-    "successful_checks": 2215,
-    "uptime": 99.68,
+    "last_check": "2025-08-01 17:26:00",
+    "total_checks": 2223,
+    "successful_checks": 2216,
+    "uptime": 99.69,
     "alert_sent": false
   }
 }

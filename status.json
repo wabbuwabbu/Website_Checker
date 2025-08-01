@@ -2,27 +2,27 @@
   "Influencers": {
     "online": true,
     "error": null,
-    "latency": 71,
+    "latency": 99,
     "status_code": 200,
     "ssl_days_remaining": 57,
     "content_valid": true,
-    "last_check": "2025-08-01 10:29:07",
-    "total_checks": 2216,
-    "successful_checks": 2216,
+    "last_check": "2025-08-01 11:22:47",
+    "total_checks": 2217,
+    "successful_checks": 2217,
     "uptime": 100.0,
     "alert_sent": false
   },
   "Tesser": {
-    "online": false,
-    "error": "HTTPSConnectionPool(host='tesser.one', port=443): Read timed out. (read timeout=10)",
-    "latency": null,
-    "status_code": null,
-    "ssl_days_remaining": null,
-    "content_valid": null,
-    "last_check": "2025-08-01 10:29:17",
-    "total_checks": 2216,
-    "successful_checks": 2209,
+    "online": true,
+    "error": null,
+    "latency": 5813,
+    "status_code": 200,
+    "ssl_days_remaining": 36,
+    "content_valid": true,
+    "last_check": "2025-08-01 11:22:53",
+    "total_checks": 2217,
+    "successful_checks": 2210,
     "uptime": 99.68,
-    "alert_sent": true
+    "alert_sent": false
   }
 }

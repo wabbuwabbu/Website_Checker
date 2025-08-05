@@ -6,23 +6,23 @@
     "status_code": 200,
     "ssl_days_remaining": 53,
     "content_valid": true,
-    "last_check": "2025-08-05 04:10:52",
-    "total_checks": 2295,
-    "successful_checks": 2295,
+    "last_check": "2025-08-05 05:34:03",
+    "total_checks": 2296,
+    "successful_checks": 2296,
     "uptime": 100.0,
     "alert_sent": false
   },
   "Tesser": {
     "online": true,
     "error": null,
-    "latency": 2587,
+    "latency": 1650,
     "status_code": 200,
     "ssl_days_remaining": 32,
     "content_valid": true,
-    "last_check": "2025-08-05 04:10:55",
-    "total_checks": 2295,
-    "successful_checks": 2288,
-    "uptime": 99.69,
+    "last_check": "2025-08-05 05:34:05",
+    "total_checks": 2296,
+    "successful_checks": 2289,
+    "uptime": 99.7,
     "alert_sent": false
   }
 }

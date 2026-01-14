@@ -2,27 +2,27 @@
   "Influencers": {
     "online": true,
     "error": null,
-    "latency": 137,
+    "latency": 129,
     "status_code": 200,
     "ssl_days_remaining": 77,
     "content_valid": true,
-    "last_check": "2026-01-14 11:26:47",
-    "total_checks": 5853,
-    "successful_checks": 5853,
+    "last_check": "2026-01-14 12:59:29",
+    "total_checks": 5854,
+    "successful_checks": 5854,
     "uptime": 100.0,
     "alert_sent": false
   },
   "Tesser": {
-    "online": true,
-    "error": null,
-    "latency": 1072,
-    "status_code": 200,
-    "ssl_days_remaining": 50,
-    "content_valid": true,
-    "last_check": "2026-01-14 11:26:48",
-    "total_checks": 5853,
+    "online": false,
+    "error": "HTTPSConnectionPool(host='tesser.one', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tesser.one'. (_ssl.c:1017)\")))",
+    "latency": null,
+    "status_code": null,
+    "ssl_days_remaining": null,
+    "content_valid": null,
+    "last_check": "2026-01-14 12:59:29",
+    "total_checks": 5854,
     "successful_checks": 5842,
-    "uptime": 99.81,
-    "alert_sent": false
+    "uptime": 99.8,
+    "alert_sent": true
   }
 }

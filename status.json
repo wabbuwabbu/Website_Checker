@@ -2,27 +2,27 @@
   "Influencers": {
     "online": true,
     "error": null,
-    "latency": 77,
+    "latency": 68,
     "status_code": 200,
     "ssl_days_remaining": 30,
     "content_valid": true,
-    "last_check": "2026-03-01 19:27:26",
-    "total_checks": 6725,
-    "successful_checks": 6725,
+    "last_check": "2026-03-01 20:33:55",
+    "total_checks": 6726,
+    "successful_checks": 6726,
     "uptime": 100.0,
     "alert_sent": false
   },
   "Tesser": {
     "online": false,
-    "error": "HTTPSConnectionPool(host='tesser.one', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tesser.one', port=443) at 0x7f108fb647c0>, 'Connection to tesser.one timed out. (connect timeout=10)'))",
+    "error": "HTTPSConnectionPool(host='tesser.one', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tesser.one', port=443) at 0x7f170fd987c0>, 'Connection to tesser.one timed out. (connect timeout=10)'))",
     "latency": null,
     "status_code": null,
     "ssl_days_remaining": null,
     "content_valid": null,
-    "last_check": "2026-03-01 19:27:36",
-    "total_checks": 6725,
+    "last_check": "2026-03-01 20:34:05",
+    "total_checks": 6726,
     "successful_checks": 5842,
-    "uptime": 86.87,
+    "uptime": 86.86,
     "alert_sent": true
   }
 }

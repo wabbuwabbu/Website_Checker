@@ -2,27 +2,27 @@
   "Influencers": {
     "online": true,
     "error": null,
-    "latency": 297,
+    "latency": 212,
     "status_code": 200,
     "ssl_days_remaining": 82,
     "content_valid": true,
-    "last_check": "2026-07-29 04:15:33",
-    "total_checks": 8457,
-    "successful_checks": 8457,
+    "last_check": "2026-07-29 07:46:35",
+    "total_checks": 8458,
+    "successful_checks": 8458,
     "uptime": 100.0,
     "alert_sent": false
   },
   "Tesser": {
     "online": false,
-    "error": "HTTPSConnectionPool(host='tesser.one', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))",
+    "error": "HTTPSConnectionPool(host='tesser.one', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='tesser.one', port=443) at 0x7f41a13c1d80>, 'Connection to tesser.one timed out. (connect timeout=10)'))",
     "latency": null,
     "status_code": null,
     "ssl_days_remaining": null,
     "content_valid": null,
-    "last_check": "2026-07-29 04:15:33",
-    "total_checks": 8457,
+    "last_check": "2026-07-29 07:46:45",
+    "total_checks": 8458,
     "successful_checks": 5842,
-    "uptime": 69.08,
+    "uptime": 69.07,
     "alert_sent": true
   }
 }

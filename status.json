@@ -2,27 +2,27 @@
   "Influencers": {
     "online": true,
     "error": null,
-    "latency": 210,
+    "latency": 355,
     "status_code": 200,
     "ssl_days_remaining": 66,
     "content_valid": true,
-    "last_check": "2026-08-14 10:08:29",
-    "total_checks": 8655,
-    "successful_checks": 8655,
+    "last_check": "2026-08-14 11:48:36",
+    "total_checks": 8656,
+    "successful_checks": 8656,
     "uptime": 100.0,
     "alert_sent": false
   },
   "Tesser": {
-    "online": true,
-    "error": null,
-    "latency": 222,
-    "status_code": 200,
-    "ssl_days_remaining": 89,
-    "content_valid": true,
-    "last_check": "2026-08-14 10:08:30",
-    "total_checks": 8655,
+    "online": false,
+    "error": "HTTPSConnectionPool(host='tesser.one', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='tesser.one', port=443): Failed to resolve 'tesser.one' ([Errno -2] Name or service not known)\"))",
+    "latency": null,
+    "status_code": null,
+    "ssl_days_remaining": null,
+    "content_valid": null,
+    "last_check": "2026-08-14 11:48:36",
+    "total_checks": 8656,
     "successful_checks": 5847,
-    "uptime": 67.56,
-    "alert_sent": false
+    "uptime": 67.55,
+    "alert_sent": true
   }
 }
